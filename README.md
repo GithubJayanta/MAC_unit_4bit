@@ -5,7 +5,7 @@
 [![Flow](https://img.shields.io/badge/Flow-OpenLane2-9cf)]()
 [![Status](https://img.shields.io/badge/status-active%20development-yellow)]()
 
-A custom, structurally hand-built 4-bit **Multiply-Accumulate (MAC)** unit — the datapath building block behind DSPs, CNN accelerators, and FIR filters — taken from RTL through synthesis, place-and-route, and STA sign-off on the open-source SkyWater SKY130 PDK.
+A custom, structurally hand-built 4-bit 3-stage Pipelined **Multiply-Accumulate (MAC)** unit — the datapath building block behind DSPs, CNN accelerators, and FIR filters — taken from RTL through synthesis, place-and-route, and STA sign-off on the open-source SkyWater SKY130 PDK.
 
 This is **Phase 2** of a larger custom-ASIC project. Phase 1 was a transistor-level 4-bit Wallace Tree Multiplier hand-drawn in Cadence Virtuoso; this project reuses that same multiplier architecture at the RTL level and extends it into a fully pipelined, accumulate-capable datapath carried all the way to layout.
 
